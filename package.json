@@ -7,7 +7,8 @@
     "dev": "LOG_LEVEL=trace npm start"
   },
   "dependencies": {
-    "teacherbot-add-collabs": "teacher-bot/add-collabs"
+    "teacherbot-add-collabs": "teacher-bot/add-collabs",
+    "teacherbot-remind-merge": "teacher-bot/remind-merge"
   },
   "devDependencies": {
     "localtunnel": "^1.8.2",

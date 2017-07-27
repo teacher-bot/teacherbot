@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "add-collabs": "teacher-bot/add-collabs",
+    "configurable": "teacher-bot/configurable",
     "remind-merge": "teacher-bot/remind-merge"
   },
   "devDependencies": {

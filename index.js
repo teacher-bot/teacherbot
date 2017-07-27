@@ -1,4 +1,3 @@
-const path = require('path');
 const addCollabs = require('add-collabs');
 const remindMerge = require('remind-merge');
 
@@ -10,9 +9,9 @@ const defaults = {
   remindMerge: {
     message: ':wave: hiya Please remember to delete your branch after merging or closing if you haven\'t done so already.'
   }
-}
+};
 
 module.exports = async robot => {
-  addCollabs(robot, defaults, 'teacherbot.yml');
-  remindMerge(robot, defaults, 'teacherbot.yml');
+  addCollabs(robot, defaults);
+  remindMerge(robot, defaults);
 };

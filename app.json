@@ -1,0 +1,26 @@
+{
+  "name": "teacherbot",
+  "scripts": {
+  },
+  "env": {
+    "GITHUBTEACHER_TOKEN": {
+      "required": true
+    },
+    "LANG": {
+      "required": true
+    },
+    "RACK_ENV": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ]
+}

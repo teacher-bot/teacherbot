@@ -7,4 +7,5 @@ global.__base = path.join(__dirname, '/');
 module.exports = robot => {
   addCollabs(robot);
   remindMerge(robot);
+  // console.log('Yay, teacherbot was loaded!')
 };

@@ -1,5 +1,9 @@
 {
   "name": "teacherbot",
+  "description": "a collection of PRobot apps to assist trainers using GitHub repositories in the classroom",
+  "keywords": ["PRobot", "node", "github", "training", "teaching"],
+  "repository": "https://github.com/teacher-bot/teacherbot",
+  "logo": "https://github.com/githubteacher.png",
   "scripts": {
   },
   "env": {

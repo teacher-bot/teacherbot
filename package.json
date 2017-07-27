@@ -4,7 +4,7 @@
   "description": "a collection of PRobot apps to assist trainers using GitHub repositories in the classroom",
   "author": "GitHub, Inc."
   "license": "ISC",
-  "repository": "https://github.com/teacher-bot/teacherbot"
+  "repository": "https://github.com/teacher-bot/teacherbot",
   "private": true,
   "scripts": {
     "start": "probot run ./index.js",

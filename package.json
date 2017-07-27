@@ -2,6 +2,9 @@
   "name": "teacherbot",
   "version": "0.0.1",
   "private": true,
+  "engines": {
+    "node": "7.10.0"
+  },
   "scripts": {
     "start": "probot run ./index.js",
     "dev": "LOG_LEVEL=trace npm start"

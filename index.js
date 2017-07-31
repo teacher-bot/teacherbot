@@ -12,6 +12,6 @@ const defaults = {
 };
 
 module.exports = async robot => {
-  addCollabs(robot, defaults);
-  remindMerge(robot, defaults);
+  addCollabs(robot, defaults, 'teacherbot.yml');
+  remindMerge(robot, defaults, 'teacherbot.yml');
 };

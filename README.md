@@ -14,7 +14,7 @@ If you are using GitHub repositories in the classroom, Teacherbot would like to 
 ### Getting started
 
 1. Install this app (coming :soon:)
-1. You can use the [default responses](lib/defaults.js), but if you'd like to specify your own, create a file inside a `.github` folder, named `teacherbot.yml` and include the following text:
+1. You can use the default responses (found in index.js), but if you'd like to specify your own, create a file inside a `.github` folder, named `teacherbot.yml` and include the following text:
 
 ```yml
 addCollaborators:

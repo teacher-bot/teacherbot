@@ -12,16 +12,15 @@ If you are using GitHub repositories in the classroom, Teacherbot would like to 
 ### Getting started
 
 1. Install this app (coming :soon:)
-1. Customize teacherbot's responses by adding a `.github/teacherbot.yml` file to your repository as follows:
+1. You can use the [default responses](lib/defaults.js), but if you'd like to specify your own, create a file inside a `.github` folder, titled `teacherbot.yml` and include the following text:
 
-```
+```yml
 addCollaborators:
-  newCollaboratorMessage: "MESSAGE for new collaborators."
-  existingCollaboratorMessage: "MESSAGE for people who are already collaborators."
+  newCollaboratorMessage: "This message will appear when someone opens a new issue, and is not already a collaborator."		   
+  existingCollaboratorMessage: "This message appears when someone is already a collaborator and they open a new issue."		   
 remindMerge:
   message: "MESSAGE after Pull Request is merged or closed."
 ```
-
 
 ### Running your own instance of this app
 

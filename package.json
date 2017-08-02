@@ -6,12 +6,17 @@
   "license": "ISC",
   "repository": "https://github.com/teacher-bot/teacherbot",
   "private": true,
+  "engines": {
+    "node": "7.10.0",
+    "npm": "4.2.0"
+  },
   "scripts": {
     "start": "probot run ./index.js",
     "dev": "LOG_LEVEL=trace npm start"
   },
   "dependencies": {
     "add-collabs": "teacher-bot/add-collabs",
+    "probot": "^0.8.0",
     "remind-merge": "teacher-bot/remind-merge"
   },
   "devDependencies": {

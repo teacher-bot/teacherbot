@@ -1,8 +1,0 @@
-#!/bin/sh
-
-set -e
-
-#echo "Your current branch is"
-#echo $(git symbolic-ref HEAD 2>/dev/null)
-
-git push -f staging $(git symbolic-ref HEAD 2>/dev/null):master

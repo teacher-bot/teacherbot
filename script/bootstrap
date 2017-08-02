@@ -2,7 +2,4 @@
 
 set -e
 
-git remote add staging https://git.heroku.com/floating-hollows-41486.git
-git remote add production https://git.heroku.com/mysterious-springs-88704.git
-
 npm install

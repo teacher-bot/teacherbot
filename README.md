@@ -21,7 +21,8 @@ addCollaborators:
   newCollaboratorMessage: "This message will appear when someone opens a new issue, and is not already a collaborator."		   
   existingCollaboratorMessage: "This message appears when someone is already a collaborator and they open a new issue."		   
 remindMerge:
-  message: "MESSAGE after Pull Request is merged or closed."
+  merged: "This message appears after Pull Request is merged."
+  unmerged: "This message appears after Pull Request is closed without merging."
 ```
 
 ### Running your own instance of this app

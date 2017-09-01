@@ -7,7 +7,8 @@ const defaults = {
     existingCollaboratorMessage: 'Hi! I\'m the friendly :robot: of this repo.\n\nI can see that you\'re already a collaborator. Any other issues are above my paygrade at the moment, so we\'ll have to wait for a pesky hu-man. Not to worry though, they\'ll drop by within 24 hours to answer your questions!'
   },
   remindMerge: {
-    message: ':wave: hiya Please remember to delete your branch after merging or closing if you haven\'t done so already.'
+    unmerged: 'It looks like you closed this PR without merging. Let us know if we can help in any way!',
+    merged: ':wave: hiya Please remember to delete your branch after merging or closing if you haven\'t done so already.'
   }
 };
 

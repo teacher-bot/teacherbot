@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "add-collabs": "teacher-bot/add-collabs",
-    "probot": "^0.8.0",
+    "probot": "^0.10.0",
     "remind-merge": "teacher-bot/remind-merge"
   },
   "devDependencies": {

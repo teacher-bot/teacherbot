@@ -16,8 +16,9 @@
   },
   "dependencies": {
     "add-collabs": "teacher-bot/add-collabs",
-    "probot": "^0.10.0",
-    "remind-merge": "teacher-bot/remind-merge"
+    "probot": "^3.0.3",
+    "remind-merge": "teacher-bot/remind-merge",
+    "check-path": "teacher-bot/check-path"
   },
   "devDependencies": {
     "localtunnel": "^1.8.2",

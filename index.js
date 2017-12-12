@@ -1,5 +1,6 @@
 const addCollabs = require('add-collabs');
 const remindMerge = require('remind-merge');
+const checkPath = require('check-path');
 
 const defaults = {
   addCollaborators: {
@@ -9,10 +10,18 @@ const defaults = {
   remindMerge: {
     unmerged: 'It looks like you closed this PR without merging. Let us know if we can help in any way!',
     merged: ':wave: hiya Please remember to delete your branch after merging or closing if you haven\'t done so already.'
+  },
+  checkPath: {
+    name: 'File path',
+    path: '_pins',
+    detailsURL: 'https://vimeo.com/201011288',
+    success: 'Your file is in the proper path.',
+    failure: 'Your file is not in the _pins directory. Click details for instructions on how to fix.'
   }
 };
 
 module.exports = robot => {
   addCollabs(robot, defaults.addCollaborators, 'teacherbot.yml');
   remindMerge(robot, defaults.remindMerge, 'teacherbot.yml');
+  checkPath(robot, defaults.checkPath, 'teacherbot.yml');
 };

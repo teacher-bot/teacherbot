@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "add-collabs": "teacher-bot/add-collabs",
-    "probot": "^3.0.3",
+    "probot": "^4.0.0",
     "remind-merge": "teacher-bot/remind-merge",
     "check-path": "teacher-bot/check-path",
     "check-extension": "teacher-bot/check-extension"

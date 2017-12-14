@@ -28,7 +28,8 @@ const defaults = {
     failure: 'Your file extension is not .yaml. Click details for instructions on how to fix.'
   },
   reopenClosedIssues: {
-    message: 'Uh oh! You closed an issue or pull request that you didn\'t author. Please leave these open for the original author so that they may get the benefit of completing the learning process on their own. Thanks :v:'
+    message: 'Uh oh! You closed an issue or pull request that you didn\'t author. Please leave these open for the original author so that they may get the benefit of completing the learning process on their own. Thanks :v:',
+    whitelistedTeamID: 239461
   }
 };
 

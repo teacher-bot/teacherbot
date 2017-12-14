@@ -2,6 +2,7 @@ const addCollabs = require('add-collabs');
 const remindMerge = require('remind-merge');
 const checkPath = require('check-path');
 const checkExtension = require('check-extension');
+const reopenClosedIssues = require('reopen-closed-issues');
 
 const defaults = {
   addCollaborators: {
@@ -25,8 +26,10 @@ const defaults = {
     detailsURL: 'https://vimeo.com/201011288',
     success: 'Your file has the proper extension.',
     failure: 'Your file extension is not .yaml. Click details for instructions on how to fix.'
+  },
+  reopenClosedIssues: {
+    message: 'Uh oh! You closed an issue or pull request that you didn\'t author. Please leave these open for the original author so that they may get the benefit of completing the learning process on their own. Thanks :v:'
   }
-
 };
 
 module.exports = robot => {
@@ -34,4 +37,5 @@ module.exports = robot => {
   remindMerge(robot, defaults.remindMerge, 'teacherbot.yml');
   checkPath(robot, defaults.checkPath, 'teacherbot.yml');
   checkExtension(robot, defaults.checkExtension, 'teacherbot.yml');
+  reopenClosedIssues( robot, defaults.reopenClosedIssues, 'teacherbot.yml');
 };

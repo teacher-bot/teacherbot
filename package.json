@@ -19,7 +19,8 @@
     "probot": "^4.0.0",
     "remind-merge": "teacher-bot/remind-merge",
     "check-path": "teacher-bot/check-path",
-    "check-extension": "teacher-bot/check-extension"
+    "check-extension": "teacher-bot/check-extension",
+    "reopen-closed-issues": "teacher-bot/reopen-closed-issues"
   },
   "devDependencies": {
     "localtunnel": "^1.8.2",

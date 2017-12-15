@@ -43,6 +43,20 @@ reopenClosedIssues:
   whitelistedTeamID: <the GitHub Team ID to be whitelisted, should be a number>
 ```
 
+### Permissions
+
+Teacherbot automatically asks for the permissions it needs when you install it. But if you're curious _why_, here's the lowdown:
+
+- Read & Write:
+  - [Repository administration](https://developer.github.com/v3/apps/permissions/#permission-on-administration): gives students collaborator access to repositories
+  - [Commit statuses](https://developer.github.com/v3/apps/permissions/#permission-on-statuses): reports status of file path and extension checks
+  - [Issues](https://developer.github.com/v3/apps/permissions/#permission-on-issues): reopen issues closed by a non-author
+  - [Pull requests](https://developer.github.com/v3/apps/permissions/#permission-on-pull-requests): remind users to delete their branches after a merge
+- Read only:
+  - [Repository metadata](https://developer.github.com/v3/apps/permissions/#metadata-permissions): all apps get this by default.
+  - [Single file](https://developer.github.com/v3/apps/permissions/#permission-on-single-file): access the `.github/teacherbot.yml` configuration file
+  - [Organization members](https://developer.github.com/v3/apps/permissions/#permission-on-members): determine when an organization's team is whitelisted to perform certain actions, like close issues for other users
+
 ### Running your own instance of this app
 
 See [docs/deploy.md](docs/deploy.md) if you would like to run your own instance of this plugin.
